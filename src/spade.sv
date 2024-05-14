@@ -1372,6 +1372,206 @@ module \tt07_delay_line_tmng::main::shift_reg  (
     reg \s599_feedback ;
     (* src = "src/main.spade:4,5" *)
     reg \s600_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s601_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s602_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s603_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s604_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s605_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s606_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s607_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s608_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s609_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s610_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s611_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s612_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s613_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s614_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s615_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s616_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s617_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s618_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s619_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s620_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s621_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s622_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s623_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s624_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s625_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s626_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s627_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s628_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s629_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s630_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s631_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s632_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s633_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s634_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s635_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s636_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s637_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s638_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s639_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s640_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s641_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s642_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s643_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s644_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s645_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s646_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s647_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s648_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s649_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s650_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s651_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s652_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s653_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s654_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s655_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s656_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s657_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s658_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s659_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s660_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s661_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s662_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s663_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s664_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s665_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s666_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s667_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s668_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s669_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s670_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s671_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s672_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s673_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s674_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s675_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s676_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s677_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s678_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s679_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s680_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s681_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s682_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s683_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s684_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s685_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s686_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s687_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s688_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s689_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s690_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s691_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s692_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s693_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s694_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s695_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s696_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s697_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s698_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s699_feedback ;
+    (* src = "src/main.spade:4,5" *)
+    reg \s700_feedback ;
     always @(posedge \clk ) begin
         \s1_feedback  <= \feedback ;
     end
@@ -3172,7 +3372,307 @@ module \tt07_delay_line_tmng::main::shift_reg  (
     always @(posedge \clk ) begin
         \s600_feedback  <= \s599_feedback ;
     end
-    assign output__ = \s600_feedback ;
+    always @(posedge \clk ) begin
+        \s601_feedback  <= \s600_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s602_feedback  <= \s601_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s603_feedback  <= \s602_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s604_feedback  <= \s603_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s605_feedback  <= \s604_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s606_feedback  <= \s605_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s607_feedback  <= \s606_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s608_feedback  <= \s607_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s609_feedback  <= \s608_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s610_feedback  <= \s609_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s611_feedback  <= \s610_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s612_feedback  <= \s611_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s613_feedback  <= \s612_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s614_feedback  <= \s613_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s615_feedback  <= \s614_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s616_feedback  <= \s615_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s617_feedback  <= \s616_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s618_feedback  <= \s617_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s619_feedback  <= \s618_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s620_feedback  <= \s619_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s621_feedback  <= \s620_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s622_feedback  <= \s621_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s623_feedback  <= \s622_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s624_feedback  <= \s623_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s625_feedback  <= \s624_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s626_feedback  <= \s625_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s627_feedback  <= \s626_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s628_feedback  <= \s627_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s629_feedback  <= \s628_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s630_feedback  <= \s629_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s631_feedback  <= \s630_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s632_feedback  <= \s631_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s633_feedback  <= \s632_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s634_feedback  <= \s633_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s635_feedback  <= \s634_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s636_feedback  <= \s635_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s637_feedback  <= \s636_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s638_feedback  <= \s637_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s639_feedback  <= \s638_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s640_feedback  <= \s639_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s641_feedback  <= \s640_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s642_feedback  <= \s641_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s643_feedback  <= \s642_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s644_feedback  <= \s643_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s645_feedback  <= \s644_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s646_feedback  <= \s645_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s647_feedback  <= \s646_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s648_feedback  <= \s647_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s649_feedback  <= \s648_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s650_feedback  <= \s649_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s651_feedback  <= \s650_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s652_feedback  <= \s651_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s653_feedback  <= \s652_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s654_feedback  <= \s653_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s655_feedback  <= \s654_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s656_feedback  <= \s655_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s657_feedback  <= \s656_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s658_feedback  <= \s657_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s659_feedback  <= \s658_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s660_feedback  <= \s659_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s661_feedback  <= \s660_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s662_feedback  <= \s661_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s663_feedback  <= \s662_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s664_feedback  <= \s663_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s665_feedback  <= \s664_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s666_feedback  <= \s665_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s667_feedback  <= \s666_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s668_feedback  <= \s667_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s669_feedback  <= \s668_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s670_feedback  <= \s669_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s671_feedback  <= \s670_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s672_feedback  <= \s671_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s673_feedback  <= \s672_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s674_feedback  <= \s673_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s675_feedback  <= \s674_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s676_feedback  <= \s675_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s677_feedback  <= \s676_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s678_feedback  <= \s677_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s679_feedback  <= \s678_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s680_feedback  <= \s679_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s681_feedback  <= \s680_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s682_feedback  <= \s681_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s683_feedback  <= \s682_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s684_feedback  <= \s683_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s685_feedback  <= \s684_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s686_feedback  <= \s685_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s687_feedback  <= \s686_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s688_feedback  <= \s687_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s689_feedback  <= \s688_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s690_feedback  <= \s689_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s691_feedback  <= \s690_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s692_feedback  <= \s691_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s693_feedback  <= \s692_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s694_feedback  <= \s693_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s695_feedback  <= \s694_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s696_feedback  <= \s695_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s697_feedback  <= \s696_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s698_feedback  <= \s697_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s699_feedback  <= \s698_feedback ;
+    end
+    always @(posedge \clk ) begin
+        \s700_feedback  <= \s699_feedback ;
+    end
+    assign output__ = \s700_feedback ;
 endmodule
 
 module tt_um_delay_line_tmng (
@@ -3215,7 +3715,7 @@ module tt_um_delay_line_tmng (
     logic[7:0] _e_635;
     logic[7:0] _e_637;
     (* src = "src/main.spade:25,38" *)
-    \std::conv::int_to_bits[1546]  int_to_bits_0(.input_i(\ui_in ), .output__(_e_623));
+    \std::conv::int_to_bits[1746]  int_to_bits_0(.input_i(\ui_in ), .output__(_e_623));
     assign _e_625 = 0;
     assign _e_622 = _e_623[_e_625];
     (* src = "src/main.spade:25,13" *)
@@ -3262,7 +3762,7 @@ module \std::cdc::unsafe::sync2[345]  (
     assign output__ = \sync2 ;
 endmodule
 
-module \std::conv::int_to_bits[1546]  (
+module \std::conv::int_to_bits[1746]  (
         input[7:0] input_i,
         output[7:0] output__
     );
@@ -3270,9 +3770,9 @@ module \std::conv::int_to_bits[1546]  (
     string __top_module;
     string __vcd_file;
     initial begin
-        if ($value$plusargs("TOP_MODULE=%s", __top_module) && __top_module == "std::conv::int_to_bits[1546]" && $value$plusargs("VCD_FILENAME=%s", __vcd_file)) begin
+        if ($value$plusargs("TOP_MODULE=%s", __top_module) && __top_module == "std::conv::int_to_bits[1746]" && $value$plusargs("VCD_FILENAME=%s", __vcd_file)) begin
             $dumpfile (__vcd_file);
-            $dumpvars (0, \std::conv::int_to_bits[1546] );
+            $dumpvars (0, \std::conv::int_to_bits[1746] );
         end
     end
     `endif

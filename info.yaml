@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "Delay Line Time Multiplexed NAND Gate"      # Project title
+  author:       "Frans Skarman (TheZoq2)"      # Your name
+  discord:      "TheZoq2"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A time multiplexed nand gate powered by a giant shift reigster"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 

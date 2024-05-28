@@ -29157,10 +29157,10 @@ module tt_um_delay_line_tmng (
     (* src = "src/main.spade:24,14" *)
     reg \write_input ;
     logic[2:0] _e_908;
-    (* src = "src/main.spade:25,22" *)
+    (* src = "src/main.spade:25,23" *)
     logic _e_906;
     (* src = "src/main.spade:25,14" *)
-    reg \input ;
+    reg \input_ ;
     logic[2:0] _e_913;
     (* src = "src/main.spade:26,25" *)
     logic _e_911;
@@ -29211,7 +29211,7 @@ module tt_um_delay_line_tmng (
     assign _e_908 = 2;
     assign _e_906 = \ui_in [_e_908];
     always @(posedge \clk ) begin
-        \input  <= _e_906;
+        \input_  <= _e_906;
     end
     assign _e_913 = 3;
     assign _e_911 = \ui_in [_e_913];
@@ -29232,12 +29232,12 @@ module tt_um_delay_line_tmng (
     always @(posedge \clk ) begin
         \opa  <= _e_926;
     end
-    assign _e_934 = \read_opa  ? \x  : \opb ;
+    assign _e_934 = \read_opb  ? \x  : \opb ;
     always @(posedge \clk ) begin
         \opb  <= _e_934;
     end
     assign \nand  = \opa  && \opb ;
-    assign _e_948 = \write_input  ? \input  : \x ;
+    assign _e_948 = \write_input  ? \input_  : \x ;
     assign \sreg_in  = \write_nand  ? \nand  : _e_948;
     (* src = "src/main.spade:43,13" *)
     \tt07_delay_line_tmng::sreg::shift_reg  shift_reg_0(.clk_i(\clk ), .val_i(\sreg_in ), .output__(\x ));

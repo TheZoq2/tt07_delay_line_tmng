@@ -149,7 +149,7 @@ module \std::cdc::sync2_bool  (
     (* src = "<compiler dir>/stdlib/cdc.spade:38,5" *)
     logic _e_335;
     (* src = "<compiler dir>/stdlib/cdc.spade:38,5" *)
-    \std::cdc::unsafe::sync2[459]  sync2_0(.clk_i(\clk ), .in_i(\in ), .output__(_e_335));
+    \std::cdc::unsafe::sync2[460]  sync2_0(.clk_i(\clk ), .in_i(\in ), .output__(_e_335));
     assign output__ = _e_335;
 endmodule
 
@@ -29120,6 +29120,98 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
     assign output__ = val_n2;
 endmodule
 
+module \tt07_delay_line_tmng::main::tmng  (
+        input clk_i,
+        input[5:0] in_i,
+        output[7:0] output__
+    );
+    `ifdef COCOTB_SIM
+    string __top_module;
+    string __vcd_file;
+    initial begin
+        if ($value$plusargs("TOP_MODULE=%s", __top_module) && __top_module == "tt07_delay_line_tmng::main::tmng" && $value$plusargs("VCD_FILENAME=%s", __vcd_file)) begin
+            $dumpfile (__vcd_file);
+            $dumpvars (0, \tt07_delay_line_tmng::main::tmng );
+        end
+    end
+    `endif
+    logic \clk ;
+    assign \clk  = clk_i;
+    logic[5:0] \in ;
+    assign \in  = in_i;
+    (* src = "src/main.spade:16,23" *)
+    logic _e_897;
+    (* src = "src/main.spade:16,20" *)
+    logic _e_896;
+    (* src = "src/main.spade:16,14" *)
+    reg \opa ;
+    (* src = "src/main.spade:17,23" *)
+    logic _e_906;
+    (* src = "src/main.spade:17,20" *)
+    logic _e_905;
+    (* src = "src/main.spade:17,14" *)
+    reg \opb ;
+    (* src = "src/main.spade:18,17" *)
+    logic \nand ;
+    (* src = "src/main.spade:20,22" *)
+    logic _e_917;
+    (* src = "src/main.spade:22,15" *)
+    logic _e_922;
+    (* src = "src/main.spade:23,9" *)
+    logic _e_925;
+    (* src = "src/main.spade:22,12" *)
+    logic _e_921;
+    (* src = "src/main.spade:20,19" *)
+    logic \sreg_in ;
+    (* src = "src/main.spade:28,13" *)
+    logic \x ;
+    (* src = "src/main.spade:30,33" *)
+    logic _e_937;
+    logic[7:0] _e_943;
+    (* src = "src/main.spade:30,50" *)
+    logic[7:0] _e_941;
+    logic[7:0] _e_947;
+    logic[7:0] _e_949;
+    (* src = "src/main.spade:30,71" *)
+    logic[7:0] _e_944;
+    (* src = "src/main.spade:30,50" *)
+    logic[7:0] _e_940;
+    (* src = "src/main.spade:30,30" *)
+    logic[7:0] _e_936;
+    (* src = "src/main.spade:30,14" *)
+    reg[7:0] \output_values ;
+    assign _e_897 = \in [2];
+    assign _e_896 = _e_897 ? \x  : \opa ;
+    always @(posedge \clk ) begin
+        \opa  <= _e_896;
+    end
+    assign _e_906 = \in [1];
+    assign _e_905 = _e_906 ? \x  : \opb ;
+    always @(posedge \clk ) begin
+        \opb  <= _e_905;
+    end
+    assign \nand  = \opa  && \opb ;
+    assign _e_917 = \in [5];
+    assign _e_922 = \in [4];
+    assign _e_925 = \in [3];
+    assign _e_921 = _e_922 ? _e_925 : \x ;
+    assign \sreg_in  = _e_917 ? \nand  : _e_921;
+    (* src = "src/main.spade:28,13" *)
+    \tt07_delay_line_tmng::sreg::shift_reg  shift_reg_0(.clk_i(\clk ), .val_i(\sreg_in ), .output__(\x ));
+    assign _e_937 = \in [0];
+    assign _e_943 = 1;
+    assign _e_941 = \output_values  << _e_943;
+    assign _e_947 = 1;
+    assign _e_949 = 0;
+    assign _e_944 = \x  ? _e_947 : _e_949;
+    assign _e_940 = _e_941 & _e_944;
+    assign _e_936 = _e_937 ? _e_940 : \output_values ;
+    always @(posedge \clk ) begin
+        \output_values  <= _e_936;
+    end
+    assign output__ = \output_values ;
+endmodule
+
 module tt_um_delay_line_tmng (
         input[7:0] ui_in,
         output[7:0] uo_out,
@@ -29146,112 +29238,58 @@ module tt_um_delay_line_tmng (
     assign uio_out = \uio_out_mut ;
     logic[7:0] \uio_oe_mut ;
     assign uio_oe = \uio_oe_mut ;
-    logic[2:0] _e_898;
-    (* src = "src/main.spade:23,27" *)
-    logic _e_896;
-    (* src = "src/main.spade:23,14" *)
-    reg \write_nand ;
-    logic[2:0] _e_903;
-    (* src = "src/main.spade:24,28" *)
-    logic _e_901;
-    (* src = "src/main.spade:24,14" *)
-    reg \write_input ;
-    logic[2:0] _e_908;
-    (* src = "src/main.spade:25,23" *)
-    logic _e_906;
-    (* src = "src/main.spade:25,14" *)
-    reg \input_ ;
-    logic[2:0] _e_913;
-    (* src = "src/main.spade:26,25" *)
-    logic _e_911;
-    (* src = "src/main.spade:26,14" *)
-    reg \read_opa ;
-    logic[2:0] _e_918;
-    (* src = "src/main.spade:27,25" *)
-    logic _e_916;
-    (* src = "src/main.spade:27,14" *)
-    reg \read_opb ;
-    logic[2:0] _e_923;
-    (* src = "src/main.spade:28,29" *)
-    logic _e_921;
-    (* src = "src/main.spade:28,14" *)
-    reg \write_output ;
-    (* src = "src/main.spade:31,20" *)
-    logic _e_926;
-    (* src = "src/main.spade:31,14" *)
-    reg \opa ;
-    (* src = "src/main.spade:32,20" *)
-    logic _e_934;
-    (* src = "src/main.spade:32,14" *)
-    reg \opb ;
-    (* src = "src/main.spade:33,17" *)
-    logic \nand ;
-    (* src = "src/main.spade:37,12" *)
-    logic _e_948;
-    (* src = "src/main.spade:35,19" *)
-    logic \sreg_in ;
-    (* src = "src/main.spade:43,13" *)
-    logic \x ;
-    logic[7:0] _e_963;
-    logic[7:0] _e_965;
-    (* src = "src/main.spade:48,18" *)
-    logic[7:0] _e_960;
-    logic[7:0] _e_967;
-    logic[7:0] _e_969;
-    assign _e_898 = 0;
-    assign _e_896 = \ui_in [_e_898];
+    (* src = "src/main.spade:52,14" *)
+    reg[7:0] \ui_in_sync ;
+    logic[2:0] _e_960;
+    (* src = "src/main.spade:55,21" *)
+    logic _e_958;
+    logic[2:0] _e_963;
+    (* src = "src/main.spade:56,22" *)
+    logic _e_961;
+    logic[2:0] _e_966;
+    (* src = "src/main.spade:57,17" *)
+    logic _e_964;
+    logic[2:0] _e_969;
+    (* src = "src/main.spade:58,19" *)
+    logic _e_967;
+    logic[2:0] _e_972;
+    (* src = "src/main.spade:59,19" *)
+    logic _e_970;
+    logic[2:0] _e_975;
+    (* src = "src/main.spade:60,23" *)
+    logic _e_973;
+    (* src = "src/main.spade:54,14" *)
+    logic[5:0] \in ;
+    (* src = "src/main.spade:65,18" *)
+    logic[7:0] _e_978;
+    logic[7:0] _e_982;
+    logic[7:0] _e_984;
     always @(posedge \clk ) begin
-        \write_nand  <= _e_896;
+        \ui_in_sync  <= \ui_in ;
     end
-    assign _e_903 = 1;
-    assign _e_901 = \ui_in [_e_903];
-    always @(posedge \clk ) begin
-        \write_input  <= _e_901;
-    end
-    assign _e_908 = 2;
-    assign _e_906 = \ui_in [_e_908];
-    always @(posedge \clk ) begin
-        \input_  <= _e_906;
-    end
-    assign _e_913 = 3;
-    assign _e_911 = \ui_in [_e_913];
-    always @(posedge \clk ) begin
-        \read_opa  <= _e_911;
-    end
-    assign _e_918 = 4;
-    assign _e_916 = \ui_in [_e_918];
-    always @(posedge \clk ) begin
-        \read_opb  <= _e_916;
-    end
-    assign _e_923 = 5;
-    assign _e_921 = \ui_in [_e_923];
-    always @(posedge \clk ) begin
-        \write_output  <= _e_921;
-    end
-    assign _e_926 = \read_opa  ? \x  : \opa ;
-    always @(posedge \clk ) begin
-        \opa  <= _e_926;
-    end
-    assign _e_934 = \read_opb  ? \x  : \opb ;
-    always @(posedge \clk ) begin
-        \opb  <= _e_934;
-    end
-    assign \nand  = \opa  && \opb ;
-    assign _e_948 = \write_input  ? \input_  : \x ;
-    assign \sreg_in  = \write_nand  ? \nand  : _e_948;
-    (* src = "src/main.spade:43,13" *)
-    \tt07_delay_line_tmng::sreg::shift_reg  shift_reg_0(.clk_i(\clk ), .val_i(\sreg_in ), .output__(\x ));
+    assign _e_960 = 0;
+    assign _e_958 = \ui_in_sync [_e_960];
     assign _e_963 = 1;
-    assign _e_965 = 0;
-    assign _e_960 = \x  ? _e_963 : _e_965;
-    assign \uo_out_mut  = _e_960;
-    assign _e_967 = 0;
-    assign \uio_out_mut  = _e_967;
-    assign _e_969 = 0;
-    assign \uio_oe_mut  = _e_969;
+    assign _e_961 = \ui_in_sync [_e_963];
+    assign _e_966 = 2;
+    assign _e_964 = \ui_in_sync [_e_966];
+    assign _e_969 = 3;
+    assign _e_967 = \ui_in_sync [_e_969];
+    assign _e_972 = 4;
+    assign _e_970 = \ui_in_sync [_e_972];
+    assign _e_975 = 5;
+    assign _e_973 = \ui_in_sync [_e_975];
+    assign \in  = {_e_958, _e_961, _e_964, _e_967, _e_970, _e_973};
+    (* src = "src/main.spade:65,18" *)
+    \tt07_delay_line_tmng::main::tmng  tmng_0(.clk_i(\clk ), .in_i(\in ), .output__(_e_978));
+    assign \uo_out_mut  = _e_978;
+    assign _e_982 = 0;
+    assign \uio_out_mut  = _e_982;
+    assign _e_984 = 0;
+    assign \uio_oe_mut  = _e_984;
 endmodule
 
-module \std::cdc::unsafe::sync2[459]  (
+module \std::cdc::unsafe::sync2[460]  (
         input clk_i,
         input in_i,
         output output__
@@ -29260,9 +29298,9 @@ module \std::cdc::unsafe::sync2[459]  (
     string __top_module;
     string __vcd_file;
     initial begin
-        if ($value$plusargs("TOP_MODULE=%s", __top_module) && __top_module == "std::cdc::unsafe::sync2[459]" && $value$plusargs("VCD_FILENAME=%s", __vcd_file)) begin
+        if ($value$plusargs("TOP_MODULE=%s", __top_module) && __top_module == "std::cdc::unsafe::sync2[460]" && $value$plusargs("VCD_FILENAME=%s", __vcd_file)) begin
             $dumpfile (__vcd_file);
-            $dumpvars (0, \std::cdc::unsafe::sync2[459] );
+            $dumpvars (0, \std::cdc::unsafe::sync2[460] );
         end
     end
     `endif

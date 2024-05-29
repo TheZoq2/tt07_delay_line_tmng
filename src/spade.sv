@@ -149,7 +149,7 @@ module \std::cdc::sync2_bool  (
     (* src = "<compiler dir>/stdlib/cdc.spade:38,5" *)
     logic _e_335;
     (* src = "<compiler dir>/stdlib/cdc.spade:38,5" *)
-    \std::cdc::unsafe::sync2[460]  sync2_0(.clk_i(\clk ), .in_i(\in ), .output__(_e_335));
+    \std::cdc::unsafe::sync2[461]  sync2_0(.clk_i(\clk ), .in_i(\in ), .output__(_e_335));
     assign output__ = _e_335;
 endmodule
 
@@ -24909,610 +24909,462 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
     reg \s750_val ;
     (* src = "src/sreg.spade:195,5" *)
     reg s750_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg \s751_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s751_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s751_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s752_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s752_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s752_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s753_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s753_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s753_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s754_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s754_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s754_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s755_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s755_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s755_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s756_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s756_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s756_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s757_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s757_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s757_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s758_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s758_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s758_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s759_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s759_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s759_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s760_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s760_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s760_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s761_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s761_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s761_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s762_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s762_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s762_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s763_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s763_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s763_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s764_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s764_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s764_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s765_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s765_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s765_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s766_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s766_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s766_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s767_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s767_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s767_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s768_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s768_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s768_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s769_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s769_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s769_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s770_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s770_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s770_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s771_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s771_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s771_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s772_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s772_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s772_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s773_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s773_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s773_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s774_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s774_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s774_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s775_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s775_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s775_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s776_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s776_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s776_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s777_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s777_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s777_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s778_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s778_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s778_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s779_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s779_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s779_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s780_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s780_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s780_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s781_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s781_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s781_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s782_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s782_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s782_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s783_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s783_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s783_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s784_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s784_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s784_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s785_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s785_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s785_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s786_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s786_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s786_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s787_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s787_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s787_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s788_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s788_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s788_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s789_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s789_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s789_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s790_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s790_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s790_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s791_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s791_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s791_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s792_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s792_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s792_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s793_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s793_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s793_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s794_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s794_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s794_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s795_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s795_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s795_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s796_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s796_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s796_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s797_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s797_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s797_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s798_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s798_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s798_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s799_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s799_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s799_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s800_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s800_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s800_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s801_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s801_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s801_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s802_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s802_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s802_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s803_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s803_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s803_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s804_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s804_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s804_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s805_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s805_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s805_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s806_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s806_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s806_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s807_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s807_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s807_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s808_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s808_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s808_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s809_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s809_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s809_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s810_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s810_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s810_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s811_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s811_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s811_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s812_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s812_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s812_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s813_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s813_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s813_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s814_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s814_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s814_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s815_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s815_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s815_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s816_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s816_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s816_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s817_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s817_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s817_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s818_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s818_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s818_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s819_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s819_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s819_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s820_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s820_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s820_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s821_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s821_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s821_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s822_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s822_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s822_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s823_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s823_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s823_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s824_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s824_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
+    reg s824_val_n2;
+    (* src = "src/sreg.spade:197,5" *)
     reg \s825_val ;
-    (* src = "src/sreg.spade:195,5" *)
+    (* src = "src/sreg.spade:197,5" *)
     reg s825_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s826_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s826_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s827_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s827_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s828_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s828_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s829_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s829_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s830_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s830_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s831_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s831_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s832_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s832_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s833_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s833_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s834_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s834_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s835_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s835_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s836_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s836_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s837_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s837_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s838_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s838_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s839_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s839_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s840_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s840_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s841_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s841_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s842_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s842_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s843_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s843_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s844_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s844_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s845_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s845_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s846_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s846_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s847_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s847_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s848_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s848_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s849_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s849_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s850_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s850_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s851_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s851_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s852_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s852_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s853_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s853_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s854_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s854_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s855_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s855_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s856_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s856_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s857_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s857_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s858_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s858_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s859_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s859_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s860_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s860_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s861_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s861_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s862_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s862_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s863_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s863_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s864_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s864_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s865_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s865_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s866_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s866_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s867_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s867_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s868_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s868_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s869_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s869_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s870_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s870_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s871_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s871_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s872_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s872_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s873_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s873_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s874_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s874_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s875_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s875_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s876_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s876_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s877_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s877_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s878_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s878_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s879_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s879_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s880_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s880_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s881_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s881_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s882_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s882_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s883_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s883_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s884_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s884_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s885_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s885_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s886_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s886_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s887_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s887_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s888_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s888_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s889_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s889_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s890_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s890_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s891_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s891_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s892_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s892_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s893_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s893_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s894_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s894_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s895_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s895_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s896_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s896_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s897_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s897_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s898_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s898_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s899_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s899_val_n1;
-    (* src = "src/sreg.spade:195,5" *)
-    reg \s900_val ;
-    (* src = "src/sreg.spade:195,5" *)
-    reg s900_val_n1;
+    (* src = "src/sreg.spade:197,5" *)
+    reg s825_val_n2;
     (* src = "src/sreg.spade:192,19" *)
     logic val_n1;
     (* src = "src/sreg.spade:194,19" *)
     logic val_n2;
+    (* src = "src/sreg.spade:196,19" *)
+    logic val_n3;
     always @(posedge \clk ) begin
         \s1_val  <= \val ;
     end
@@ -28220,10 +28072,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s751_val_n1 <= s750_val_n1;
     end
     always @(posedge \clk ) begin
+        s751_val_n2 <= val_n2;
+    end
+    always @(posedge \clk ) begin
         \s752_val  <= \s751_val ;
     end
     always @(posedge \clk ) begin
         s752_val_n1 <= s751_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s752_val_n2 <= s751_val_n2;
     end
     always @(posedge \clk ) begin
         \s753_val  <= \s752_val ;
@@ -28232,10 +28090,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s753_val_n1 <= s752_val_n1;
     end
     always @(posedge \clk ) begin
+        s753_val_n2 <= s752_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s754_val  <= \s753_val ;
     end
     always @(posedge \clk ) begin
         s754_val_n1 <= s753_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s754_val_n2 <= s753_val_n2;
     end
     always @(posedge \clk ) begin
         \s755_val  <= \s754_val ;
@@ -28244,10 +28108,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s755_val_n1 <= s754_val_n1;
     end
     always @(posedge \clk ) begin
+        s755_val_n2 <= s754_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s756_val  <= \s755_val ;
     end
     always @(posedge \clk ) begin
         s756_val_n1 <= s755_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s756_val_n2 <= s755_val_n2;
     end
     always @(posedge \clk ) begin
         \s757_val  <= \s756_val ;
@@ -28256,10 +28126,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s757_val_n1 <= s756_val_n1;
     end
     always @(posedge \clk ) begin
+        s757_val_n2 <= s756_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s758_val  <= \s757_val ;
     end
     always @(posedge \clk ) begin
         s758_val_n1 <= s757_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s758_val_n2 <= s757_val_n2;
     end
     always @(posedge \clk ) begin
         \s759_val  <= \s758_val ;
@@ -28268,10 +28144,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s759_val_n1 <= s758_val_n1;
     end
     always @(posedge \clk ) begin
+        s759_val_n2 <= s758_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s760_val  <= \s759_val ;
     end
     always @(posedge \clk ) begin
         s760_val_n1 <= s759_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s760_val_n2 <= s759_val_n2;
     end
     always @(posedge \clk ) begin
         \s761_val  <= \s760_val ;
@@ -28280,10 +28162,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s761_val_n1 <= s760_val_n1;
     end
     always @(posedge \clk ) begin
+        s761_val_n2 <= s760_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s762_val  <= \s761_val ;
     end
     always @(posedge \clk ) begin
         s762_val_n1 <= s761_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s762_val_n2 <= s761_val_n2;
     end
     always @(posedge \clk ) begin
         \s763_val  <= \s762_val ;
@@ -28292,10 +28180,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s763_val_n1 <= s762_val_n1;
     end
     always @(posedge \clk ) begin
+        s763_val_n2 <= s762_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s764_val  <= \s763_val ;
     end
     always @(posedge \clk ) begin
         s764_val_n1 <= s763_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s764_val_n2 <= s763_val_n2;
     end
     always @(posedge \clk ) begin
         \s765_val  <= \s764_val ;
@@ -28304,10 +28198,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s765_val_n1 <= s764_val_n1;
     end
     always @(posedge \clk ) begin
+        s765_val_n2 <= s764_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s766_val  <= \s765_val ;
     end
     always @(posedge \clk ) begin
         s766_val_n1 <= s765_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s766_val_n2 <= s765_val_n2;
     end
     always @(posedge \clk ) begin
         \s767_val  <= \s766_val ;
@@ -28316,10 +28216,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s767_val_n1 <= s766_val_n1;
     end
     always @(posedge \clk ) begin
+        s767_val_n2 <= s766_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s768_val  <= \s767_val ;
     end
     always @(posedge \clk ) begin
         s768_val_n1 <= s767_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s768_val_n2 <= s767_val_n2;
     end
     always @(posedge \clk ) begin
         \s769_val  <= \s768_val ;
@@ -28328,10 +28234,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s769_val_n1 <= s768_val_n1;
     end
     always @(posedge \clk ) begin
+        s769_val_n2 <= s768_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s770_val  <= \s769_val ;
     end
     always @(posedge \clk ) begin
         s770_val_n1 <= s769_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s770_val_n2 <= s769_val_n2;
     end
     always @(posedge \clk ) begin
         \s771_val  <= \s770_val ;
@@ -28340,10 +28252,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s771_val_n1 <= s770_val_n1;
     end
     always @(posedge \clk ) begin
+        s771_val_n2 <= s770_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s772_val  <= \s771_val ;
     end
     always @(posedge \clk ) begin
         s772_val_n1 <= s771_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s772_val_n2 <= s771_val_n2;
     end
     always @(posedge \clk ) begin
         \s773_val  <= \s772_val ;
@@ -28352,10 +28270,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s773_val_n1 <= s772_val_n1;
     end
     always @(posedge \clk ) begin
+        s773_val_n2 <= s772_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s774_val  <= \s773_val ;
     end
     always @(posedge \clk ) begin
         s774_val_n1 <= s773_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s774_val_n2 <= s773_val_n2;
     end
     always @(posedge \clk ) begin
         \s775_val  <= \s774_val ;
@@ -28364,10 +28288,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s775_val_n1 <= s774_val_n1;
     end
     always @(posedge \clk ) begin
+        s775_val_n2 <= s774_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s776_val  <= \s775_val ;
     end
     always @(posedge \clk ) begin
         s776_val_n1 <= s775_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s776_val_n2 <= s775_val_n2;
     end
     always @(posedge \clk ) begin
         \s777_val  <= \s776_val ;
@@ -28376,10 +28306,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s777_val_n1 <= s776_val_n1;
     end
     always @(posedge \clk ) begin
+        s777_val_n2 <= s776_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s778_val  <= \s777_val ;
     end
     always @(posedge \clk ) begin
         s778_val_n1 <= s777_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s778_val_n2 <= s777_val_n2;
     end
     always @(posedge \clk ) begin
         \s779_val  <= \s778_val ;
@@ -28388,10 +28324,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s779_val_n1 <= s778_val_n1;
     end
     always @(posedge \clk ) begin
+        s779_val_n2 <= s778_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s780_val  <= \s779_val ;
     end
     always @(posedge \clk ) begin
         s780_val_n1 <= s779_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s780_val_n2 <= s779_val_n2;
     end
     always @(posedge \clk ) begin
         \s781_val  <= \s780_val ;
@@ -28400,10 +28342,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s781_val_n1 <= s780_val_n1;
     end
     always @(posedge \clk ) begin
+        s781_val_n2 <= s780_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s782_val  <= \s781_val ;
     end
     always @(posedge \clk ) begin
         s782_val_n1 <= s781_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s782_val_n2 <= s781_val_n2;
     end
     always @(posedge \clk ) begin
         \s783_val  <= \s782_val ;
@@ -28412,10 +28360,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s783_val_n1 <= s782_val_n1;
     end
     always @(posedge \clk ) begin
+        s783_val_n2 <= s782_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s784_val  <= \s783_val ;
     end
     always @(posedge \clk ) begin
         s784_val_n1 <= s783_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s784_val_n2 <= s783_val_n2;
     end
     always @(posedge \clk ) begin
         \s785_val  <= \s784_val ;
@@ -28424,10 +28378,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s785_val_n1 <= s784_val_n1;
     end
     always @(posedge \clk ) begin
+        s785_val_n2 <= s784_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s786_val  <= \s785_val ;
     end
     always @(posedge \clk ) begin
         s786_val_n1 <= s785_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s786_val_n2 <= s785_val_n2;
     end
     always @(posedge \clk ) begin
         \s787_val  <= \s786_val ;
@@ -28436,10 +28396,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s787_val_n1 <= s786_val_n1;
     end
     always @(posedge \clk ) begin
+        s787_val_n2 <= s786_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s788_val  <= \s787_val ;
     end
     always @(posedge \clk ) begin
         s788_val_n1 <= s787_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s788_val_n2 <= s787_val_n2;
     end
     always @(posedge \clk ) begin
         \s789_val  <= \s788_val ;
@@ -28448,10 +28414,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s789_val_n1 <= s788_val_n1;
     end
     always @(posedge \clk ) begin
+        s789_val_n2 <= s788_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s790_val  <= \s789_val ;
     end
     always @(posedge \clk ) begin
         s790_val_n1 <= s789_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s790_val_n2 <= s789_val_n2;
     end
     always @(posedge \clk ) begin
         \s791_val  <= \s790_val ;
@@ -28460,10 +28432,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s791_val_n1 <= s790_val_n1;
     end
     always @(posedge \clk ) begin
+        s791_val_n2 <= s790_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s792_val  <= \s791_val ;
     end
     always @(posedge \clk ) begin
         s792_val_n1 <= s791_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s792_val_n2 <= s791_val_n2;
     end
     always @(posedge \clk ) begin
         \s793_val  <= \s792_val ;
@@ -28472,10 +28450,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s793_val_n1 <= s792_val_n1;
     end
     always @(posedge \clk ) begin
+        s793_val_n2 <= s792_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s794_val  <= \s793_val ;
     end
     always @(posedge \clk ) begin
         s794_val_n1 <= s793_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s794_val_n2 <= s793_val_n2;
     end
     always @(posedge \clk ) begin
         \s795_val  <= \s794_val ;
@@ -28484,10 +28468,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s795_val_n1 <= s794_val_n1;
     end
     always @(posedge \clk ) begin
+        s795_val_n2 <= s794_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s796_val  <= \s795_val ;
     end
     always @(posedge \clk ) begin
         s796_val_n1 <= s795_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s796_val_n2 <= s795_val_n2;
     end
     always @(posedge \clk ) begin
         \s797_val  <= \s796_val ;
@@ -28496,10 +28486,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s797_val_n1 <= s796_val_n1;
     end
     always @(posedge \clk ) begin
+        s797_val_n2 <= s796_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s798_val  <= \s797_val ;
     end
     always @(posedge \clk ) begin
         s798_val_n1 <= s797_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s798_val_n2 <= s797_val_n2;
     end
     always @(posedge \clk ) begin
         \s799_val  <= \s798_val ;
@@ -28508,10 +28504,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s799_val_n1 <= s798_val_n1;
     end
     always @(posedge \clk ) begin
+        s799_val_n2 <= s798_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s800_val  <= \s799_val ;
     end
     always @(posedge \clk ) begin
         s800_val_n1 <= s799_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s800_val_n2 <= s799_val_n2;
     end
     always @(posedge \clk ) begin
         \s801_val  <= \s800_val ;
@@ -28520,10 +28522,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s801_val_n1 <= s800_val_n1;
     end
     always @(posedge \clk ) begin
+        s801_val_n2 <= s800_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s802_val  <= \s801_val ;
     end
     always @(posedge \clk ) begin
         s802_val_n1 <= s801_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s802_val_n2 <= s801_val_n2;
     end
     always @(posedge \clk ) begin
         \s803_val  <= \s802_val ;
@@ -28532,10 +28540,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s803_val_n1 <= s802_val_n1;
     end
     always @(posedge \clk ) begin
+        s803_val_n2 <= s802_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s804_val  <= \s803_val ;
     end
     always @(posedge \clk ) begin
         s804_val_n1 <= s803_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s804_val_n2 <= s803_val_n2;
     end
     always @(posedge \clk ) begin
         \s805_val  <= \s804_val ;
@@ -28544,10 +28558,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s805_val_n1 <= s804_val_n1;
     end
     always @(posedge \clk ) begin
+        s805_val_n2 <= s804_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s806_val  <= \s805_val ;
     end
     always @(posedge \clk ) begin
         s806_val_n1 <= s805_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s806_val_n2 <= s805_val_n2;
     end
     always @(posedge \clk ) begin
         \s807_val  <= \s806_val ;
@@ -28556,10 +28576,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s807_val_n1 <= s806_val_n1;
     end
     always @(posedge \clk ) begin
+        s807_val_n2 <= s806_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s808_val  <= \s807_val ;
     end
     always @(posedge \clk ) begin
         s808_val_n1 <= s807_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s808_val_n2 <= s807_val_n2;
     end
     always @(posedge \clk ) begin
         \s809_val  <= \s808_val ;
@@ -28568,10 +28594,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s809_val_n1 <= s808_val_n1;
     end
     always @(posedge \clk ) begin
+        s809_val_n2 <= s808_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s810_val  <= \s809_val ;
     end
     always @(posedge \clk ) begin
         s810_val_n1 <= s809_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s810_val_n2 <= s809_val_n2;
     end
     always @(posedge \clk ) begin
         \s811_val  <= \s810_val ;
@@ -28580,10 +28612,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s811_val_n1 <= s810_val_n1;
     end
     always @(posedge \clk ) begin
+        s811_val_n2 <= s810_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s812_val  <= \s811_val ;
     end
     always @(posedge \clk ) begin
         s812_val_n1 <= s811_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s812_val_n2 <= s811_val_n2;
     end
     always @(posedge \clk ) begin
         \s813_val  <= \s812_val ;
@@ -28592,10 +28630,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s813_val_n1 <= s812_val_n1;
     end
     always @(posedge \clk ) begin
+        s813_val_n2 <= s812_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s814_val  <= \s813_val ;
     end
     always @(posedge \clk ) begin
         s814_val_n1 <= s813_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s814_val_n2 <= s813_val_n2;
     end
     always @(posedge \clk ) begin
         \s815_val  <= \s814_val ;
@@ -28604,10 +28648,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s815_val_n1 <= s814_val_n1;
     end
     always @(posedge \clk ) begin
+        s815_val_n2 <= s814_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s816_val  <= \s815_val ;
     end
     always @(posedge \clk ) begin
         s816_val_n1 <= s815_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s816_val_n2 <= s815_val_n2;
     end
     always @(posedge \clk ) begin
         \s817_val  <= \s816_val ;
@@ -28616,10 +28666,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s817_val_n1 <= s816_val_n1;
     end
     always @(posedge \clk ) begin
+        s817_val_n2 <= s816_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s818_val  <= \s817_val ;
     end
     always @(posedge \clk ) begin
         s818_val_n1 <= s817_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s818_val_n2 <= s817_val_n2;
     end
     always @(posedge \clk ) begin
         \s819_val  <= \s818_val ;
@@ -28628,10 +28684,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s819_val_n1 <= s818_val_n1;
     end
     always @(posedge \clk ) begin
+        s819_val_n2 <= s818_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s820_val  <= \s819_val ;
     end
     always @(posedge \clk ) begin
         s820_val_n1 <= s819_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s820_val_n2 <= s819_val_n2;
     end
     always @(posedge \clk ) begin
         \s821_val  <= \s820_val ;
@@ -28640,10 +28702,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s821_val_n1 <= s820_val_n1;
     end
     always @(posedge \clk ) begin
+        s821_val_n2 <= s820_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s822_val  <= \s821_val ;
     end
     always @(posedge \clk ) begin
         s822_val_n1 <= s821_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s822_val_n2 <= s821_val_n2;
     end
     always @(posedge \clk ) begin
         \s823_val  <= \s822_val ;
@@ -28652,10 +28720,16 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s823_val_n1 <= s822_val_n1;
     end
     always @(posedge \clk ) begin
+        s823_val_n2 <= s822_val_n2;
+    end
+    always @(posedge \clk ) begin
         \s824_val  <= \s823_val ;
     end
     always @(posedge \clk ) begin
         s824_val_n1 <= s823_val_n1;
+    end
+    always @(posedge \clk ) begin
+        s824_val_n2 <= s823_val_n2;
     end
     always @(posedge \clk ) begin
         \s825_val  <= \s824_val ;
@@ -28664,460 +28738,15 @@ module \tt07_delay_line_tmng::sreg::shift_reg  (
         s825_val_n1 <= s824_val_n1;
     end
     always @(posedge \clk ) begin
-        \s826_val  <= \s825_val ;
-    end
-    always @(posedge \clk ) begin
-        s826_val_n1 <= s825_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s827_val  <= \s826_val ;
-    end
-    always @(posedge \clk ) begin
-        s827_val_n1 <= s826_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s828_val  <= \s827_val ;
-    end
-    always @(posedge \clk ) begin
-        s828_val_n1 <= s827_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s829_val  <= \s828_val ;
-    end
-    always @(posedge \clk ) begin
-        s829_val_n1 <= s828_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s830_val  <= \s829_val ;
-    end
-    always @(posedge \clk ) begin
-        s830_val_n1 <= s829_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s831_val  <= \s830_val ;
-    end
-    always @(posedge \clk ) begin
-        s831_val_n1 <= s830_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s832_val  <= \s831_val ;
-    end
-    always @(posedge \clk ) begin
-        s832_val_n1 <= s831_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s833_val  <= \s832_val ;
-    end
-    always @(posedge \clk ) begin
-        s833_val_n1 <= s832_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s834_val  <= \s833_val ;
-    end
-    always @(posedge \clk ) begin
-        s834_val_n1 <= s833_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s835_val  <= \s834_val ;
-    end
-    always @(posedge \clk ) begin
-        s835_val_n1 <= s834_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s836_val  <= \s835_val ;
-    end
-    always @(posedge \clk ) begin
-        s836_val_n1 <= s835_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s837_val  <= \s836_val ;
-    end
-    always @(posedge \clk ) begin
-        s837_val_n1 <= s836_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s838_val  <= \s837_val ;
-    end
-    always @(posedge \clk ) begin
-        s838_val_n1 <= s837_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s839_val  <= \s838_val ;
-    end
-    always @(posedge \clk ) begin
-        s839_val_n1 <= s838_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s840_val  <= \s839_val ;
-    end
-    always @(posedge \clk ) begin
-        s840_val_n1 <= s839_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s841_val  <= \s840_val ;
-    end
-    always @(posedge \clk ) begin
-        s841_val_n1 <= s840_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s842_val  <= \s841_val ;
-    end
-    always @(posedge \clk ) begin
-        s842_val_n1 <= s841_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s843_val  <= \s842_val ;
-    end
-    always @(posedge \clk ) begin
-        s843_val_n1 <= s842_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s844_val  <= \s843_val ;
-    end
-    always @(posedge \clk ) begin
-        s844_val_n1 <= s843_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s845_val  <= \s844_val ;
-    end
-    always @(posedge \clk ) begin
-        s845_val_n1 <= s844_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s846_val  <= \s845_val ;
-    end
-    always @(posedge \clk ) begin
-        s846_val_n1 <= s845_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s847_val  <= \s846_val ;
-    end
-    always @(posedge \clk ) begin
-        s847_val_n1 <= s846_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s848_val  <= \s847_val ;
-    end
-    always @(posedge \clk ) begin
-        s848_val_n1 <= s847_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s849_val  <= \s848_val ;
-    end
-    always @(posedge \clk ) begin
-        s849_val_n1 <= s848_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s850_val  <= \s849_val ;
-    end
-    always @(posedge \clk ) begin
-        s850_val_n1 <= s849_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s851_val  <= \s850_val ;
-    end
-    always @(posedge \clk ) begin
-        s851_val_n1 <= s850_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s852_val  <= \s851_val ;
-    end
-    always @(posedge \clk ) begin
-        s852_val_n1 <= s851_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s853_val  <= \s852_val ;
-    end
-    always @(posedge \clk ) begin
-        s853_val_n1 <= s852_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s854_val  <= \s853_val ;
-    end
-    always @(posedge \clk ) begin
-        s854_val_n1 <= s853_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s855_val  <= \s854_val ;
-    end
-    always @(posedge \clk ) begin
-        s855_val_n1 <= s854_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s856_val  <= \s855_val ;
-    end
-    always @(posedge \clk ) begin
-        s856_val_n1 <= s855_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s857_val  <= \s856_val ;
-    end
-    always @(posedge \clk ) begin
-        s857_val_n1 <= s856_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s858_val  <= \s857_val ;
-    end
-    always @(posedge \clk ) begin
-        s858_val_n1 <= s857_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s859_val  <= \s858_val ;
-    end
-    always @(posedge \clk ) begin
-        s859_val_n1 <= s858_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s860_val  <= \s859_val ;
-    end
-    always @(posedge \clk ) begin
-        s860_val_n1 <= s859_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s861_val  <= \s860_val ;
-    end
-    always @(posedge \clk ) begin
-        s861_val_n1 <= s860_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s862_val  <= \s861_val ;
-    end
-    always @(posedge \clk ) begin
-        s862_val_n1 <= s861_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s863_val  <= \s862_val ;
-    end
-    always @(posedge \clk ) begin
-        s863_val_n1 <= s862_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s864_val  <= \s863_val ;
-    end
-    always @(posedge \clk ) begin
-        s864_val_n1 <= s863_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s865_val  <= \s864_val ;
-    end
-    always @(posedge \clk ) begin
-        s865_val_n1 <= s864_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s866_val  <= \s865_val ;
-    end
-    always @(posedge \clk ) begin
-        s866_val_n1 <= s865_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s867_val  <= \s866_val ;
-    end
-    always @(posedge \clk ) begin
-        s867_val_n1 <= s866_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s868_val  <= \s867_val ;
-    end
-    always @(posedge \clk ) begin
-        s868_val_n1 <= s867_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s869_val  <= \s868_val ;
-    end
-    always @(posedge \clk ) begin
-        s869_val_n1 <= s868_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s870_val  <= \s869_val ;
-    end
-    always @(posedge \clk ) begin
-        s870_val_n1 <= s869_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s871_val  <= \s870_val ;
-    end
-    always @(posedge \clk ) begin
-        s871_val_n1 <= s870_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s872_val  <= \s871_val ;
-    end
-    always @(posedge \clk ) begin
-        s872_val_n1 <= s871_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s873_val  <= \s872_val ;
-    end
-    always @(posedge \clk ) begin
-        s873_val_n1 <= s872_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s874_val  <= \s873_val ;
-    end
-    always @(posedge \clk ) begin
-        s874_val_n1 <= s873_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s875_val  <= \s874_val ;
-    end
-    always @(posedge \clk ) begin
-        s875_val_n1 <= s874_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s876_val  <= \s875_val ;
-    end
-    always @(posedge \clk ) begin
-        s876_val_n1 <= s875_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s877_val  <= \s876_val ;
-    end
-    always @(posedge \clk ) begin
-        s877_val_n1 <= s876_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s878_val  <= \s877_val ;
-    end
-    always @(posedge \clk ) begin
-        s878_val_n1 <= s877_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s879_val  <= \s878_val ;
-    end
-    always @(posedge \clk ) begin
-        s879_val_n1 <= s878_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s880_val  <= \s879_val ;
-    end
-    always @(posedge \clk ) begin
-        s880_val_n1 <= s879_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s881_val  <= \s880_val ;
-    end
-    always @(posedge \clk ) begin
-        s881_val_n1 <= s880_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s882_val  <= \s881_val ;
-    end
-    always @(posedge \clk ) begin
-        s882_val_n1 <= s881_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s883_val  <= \s882_val ;
-    end
-    always @(posedge \clk ) begin
-        s883_val_n1 <= s882_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s884_val  <= \s883_val ;
-    end
-    always @(posedge \clk ) begin
-        s884_val_n1 <= s883_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s885_val  <= \s884_val ;
-    end
-    always @(posedge \clk ) begin
-        s885_val_n1 <= s884_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s886_val  <= \s885_val ;
-    end
-    always @(posedge \clk ) begin
-        s886_val_n1 <= s885_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s887_val  <= \s886_val ;
-    end
-    always @(posedge \clk ) begin
-        s887_val_n1 <= s886_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s888_val  <= \s887_val ;
-    end
-    always @(posedge \clk ) begin
-        s888_val_n1 <= s887_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s889_val  <= \s888_val ;
-    end
-    always @(posedge \clk ) begin
-        s889_val_n1 <= s888_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s890_val  <= \s889_val ;
-    end
-    always @(posedge \clk ) begin
-        s890_val_n1 <= s889_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s891_val  <= \s890_val ;
-    end
-    always @(posedge \clk ) begin
-        s891_val_n1 <= s890_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s892_val  <= \s891_val ;
-    end
-    always @(posedge \clk ) begin
-        s892_val_n1 <= s891_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s893_val  <= \s892_val ;
-    end
-    always @(posedge \clk ) begin
-        s893_val_n1 <= s892_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s894_val  <= \s893_val ;
-    end
-    always @(posedge \clk ) begin
-        s894_val_n1 <= s893_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s895_val  <= \s894_val ;
-    end
-    always @(posedge \clk ) begin
-        s895_val_n1 <= s894_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s896_val  <= \s895_val ;
-    end
-    always @(posedge \clk ) begin
-        s896_val_n1 <= s895_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s897_val  <= \s896_val ;
-    end
-    always @(posedge \clk ) begin
-        s897_val_n1 <= s896_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s898_val  <= \s897_val ;
-    end
-    always @(posedge \clk ) begin
-        s898_val_n1 <= s897_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s899_val  <= \s898_val ;
-    end
-    always @(posedge \clk ) begin
-        s899_val_n1 <= s898_val_n1;
-    end
-    always @(posedge \clk ) begin
-        \s900_val  <= \s899_val ;
-    end
-    always @(posedge \clk ) begin
-        s900_val_n1 <= s899_val_n1;
+        s825_val_n2 <= s824_val_n2;
     end
     (* src = "src/sreg.spade:192,19" *)
     \tt07_delay_line_tmng::sreg::shift_reg600  shift_reg600_0(.clk_i(\clk ), .val_i(\val ), .output__(val_n1));
     (* src = "src/sreg.spade:194,19" *)
-    \tt07_delay_line_tmng::sreg::shift_reg300  shift_reg300_0(.clk_i(\clk ), .val_i(val_n1), .output__(val_n2));
-    assign output__ = val_n2;
+    \tt07_delay_line_tmng::sreg::shift_reg150  shift_reg150_0(.clk_i(\clk ), .val_i(val_n1), .output__(val_n2));
+    (* src = "src/sreg.spade:196,19" *)
+    \tt07_delay_line_tmng::sreg::shift_reg75  shift_reg75_0(.clk_i(\clk ), .val_i(val_n2), .output__(val_n3));
+    assign output__ = val_n3;
 endmodule
 
 module \tt07_delay_line_tmng::main::tmng  (
@@ -29140,77 +28769,77 @@ module \tt07_delay_line_tmng::main::tmng  (
     logic[5:0] \ctrl ;
     assign \ctrl  = ctrl_i;
     (* src = "src/main.spade:16,23" *)
-    logic _e_897;
+    logic _e_901;
     (* src = "src/main.spade:16,20" *)
-    logic _e_896;
+    logic _e_900;
     (* src = "src/main.spade:16,14" *)
     reg \opa ;
     (* src = "src/main.spade:17,23" *)
-    logic _e_906;
+    logic _e_910;
     (* src = "src/main.spade:17,20" *)
-    logic _e_905;
+    logic _e_909;
     (* src = "src/main.spade:17,14" *)
     reg \opb ;
     (* src = "src/main.spade:18,18" *)
-    logic _e_913;
+    logic _e_917;
     (* src = "src/main.spade:18,16" *)
     logic \nand ;
     (* src = "src/main.spade:20,22" *)
-    logic _e_918;
-    (* src = "src/main.spade:22,15" *)
-    logic _e_923;
-    (* src = "src/main.spade:23,9" *)
-    logic _e_926;
-    (* src = "src/main.spade:22,12" *)
     logic _e_922;
+    (* src = "src/main.spade:22,15" *)
+    logic _e_927;
+    (* src = "src/main.spade:23,9" *)
+    logic _e_930;
+    (* src = "src/main.spade:22,12" *)
+    logic _e_926;
     (* src = "src/main.spade:20,19" *)
     logic \sreg_in ;
     (* src = "src/main.spade:28,20" *)
     logic \sreg_out ;
     (* src = "src/main.spade:30,33" *)
-    logic _e_938;
-    logic[7:0] _e_944;
-    (* src = "src/main.spade:30,53" *)
-    logic[7:0] _e_942;
+    logic _e_942;
     logic[7:0] _e_948;
-    logic[7:0] _e_950;
-    (* src = "src/main.spade:30,75" *)
-    logic[7:0] _e_945;
     (* src = "src/main.spade:30,53" *)
-    logic[7:0] _e_941;
+    logic[7:0] _e_946;
+    logic[7:0] _e_952;
+    logic[7:0] _e_954;
+    (* src = "src/main.spade:30,75" *)
+    logic[7:0] _e_949;
+    (* src = "src/main.spade:30,53" *)
+    logic[7:0] _e_945;
     (* src = "src/main.spade:30,30" *)
-    logic[7:0] _e_937;
+    logic[7:0] _e_941;
     (* src = "src/main.spade:30,14" *)
     reg[7:0] \output_values ;
-    assign _e_897 = \ctrl [2];
-    assign _e_896 = _e_897 ? \sreg_out  : \opa ;
+    assign _e_901 = \ctrl [2];
+    assign _e_900 = _e_901 ? \sreg_out  : \opa ;
     always @(posedge \clk ) begin
-        \opa  <= _e_896;
+        \opa  <= _e_900;
     end
-    assign _e_906 = \ctrl [1];
-    assign _e_905 = _e_906 ? \sreg_out  : \opb ;
+    assign _e_910 = \ctrl [1];
+    assign _e_909 = _e_910 ? \sreg_out  : \opb ;
     always @(posedge \clk ) begin
-        \opb  <= _e_905;
+        \opb  <= _e_909;
     end
-    assign _e_913 = \opa  && \opb ;
-    assign \nand  = !_e_913;
-    assign _e_918 = \ctrl [5];
-    assign _e_923 = \ctrl [4];
-    assign _e_926 = \ctrl [3];
-    assign _e_922 = _e_923 ? _e_926 : \sreg_out ;
-    assign \sreg_in  = _e_918 ? \nand  : _e_922;
+    assign _e_917 = \opa  && \opb ;
+    assign \nand  = !_e_917;
+    assign _e_922 = \ctrl [5];
+    assign _e_927 = \ctrl [4];
+    assign _e_930 = \ctrl [3];
+    assign _e_926 = _e_927 ? _e_930 : \sreg_out ;
+    assign \sreg_in  = _e_922 ? \nand  : _e_926;
     (* src = "src/main.spade:28,20" *)
     \tt07_delay_line_tmng::sreg::shift_reg  shift_reg_0(.clk_i(\clk ), .val_i(\sreg_in ), .output__(\sreg_out ));
-    assign _e_938 = \ctrl [0];
-    assign _e_944 = 1;
-    assign _e_942 = \output_values  << _e_944;
+    assign _e_942 = \ctrl [0];
     assign _e_948 = 1;
-    assign _e_950 = 0;
-    assign _e_945 = \sreg_out  ? _e_948 : _e_950;
-    assign _e_941 = _e_942 | _e_945;
-    assign _e_937 = _e_938 ? _e_941 : \output_values ;
+    assign _e_946 = \output_values  << _e_948;
+    assign _e_952 = 1;
+    assign _e_954 = 0;
+    assign _e_949 = \sreg_out  ? _e_952 : _e_954;
+    assign _e_945 = _e_946 | _e_949;
+    assign _e_941 = _e_942 ? _e_945 : \output_values ;
     always @(posedge \clk ) begin
-        \output_values  <= _e_937;
+        \output_values  <= _e_941;
     end
     assign output__ = \output_values ;
 endmodule
@@ -29243,56 +28872,56 @@ module tt_um_delay_line_tmng (
     assign uio_oe = \uio_oe_mut ;
     (* src = "src/main.spade:53,14" *)
     reg[7:0] \ui_in_sync ;
-    logic[2:0] _e_961;
+    logic[2:0] _e_965;
     (* src = "src/main.spade:56,21" *)
-    logic _e_959;
-    logic[2:0] _e_964;
+    logic _e_963;
+    logic[2:0] _e_968;
     (* src = "src/main.spade:57,22" *)
-    logic _e_962;
-    logic[2:0] _e_967;
+    logic _e_966;
+    logic[2:0] _e_971;
     (* src = "src/main.spade:58,17" *)
-    logic _e_965;
-    logic[2:0] _e_970;
+    logic _e_969;
+    logic[2:0] _e_974;
     (* src = "src/main.spade:59,19" *)
-    logic _e_968;
-    logic[2:0] _e_973;
+    logic _e_972;
+    logic[2:0] _e_977;
     (* src = "src/main.spade:60,19" *)
-    logic _e_971;
-    logic[2:0] _e_976;
+    logic _e_975;
+    logic[2:0] _e_980;
     (* src = "src/main.spade:61,23" *)
-    logic _e_974;
+    logic _e_978;
     (* src = "src/main.spade:55,16" *)
     logic[5:0] \ctrl ;
     (* src = "src/main.spade:66,18" *)
-    logic[7:0] _e_979;
     logic[7:0] _e_983;
-    logic[7:0] _e_985;
+    logic[7:0] _e_987;
+    logic[7:0] _e_989;
     always @(posedge \clk ) begin
         \ui_in_sync  <= \ui_in ;
     end
-    assign _e_961 = 0;
-    assign _e_959 = \ui_in_sync [_e_961];
-    assign _e_964 = 1;
-    assign _e_962 = \ui_in_sync [_e_964];
-    assign _e_967 = 2;
-    assign _e_965 = \ui_in_sync [_e_967];
-    assign _e_970 = 3;
-    assign _e_968 = \ui_in_sync [_e_970];
-    assign _e_973 = 4;
-    assign _e_971 = \ui_in_sync [_e_973];
-    assign _e_976 = 5;
-    assign _e_974 = \ui_in_sync [_e_976];
-    assign \ctrl  = {_e_959, _e_962, _e_965, _e_968, _e_971, _e_974};
+    assign _e_965 = 0;
+    assign _e_963 = \ui_in_sync [_e_965];
+    assign _e_968 = 1;
+    assign _e_966 = \ui_in_sync [_e_968];
+    assign _e_971 = 2;
+    assign _e_969 = \ui_in_sync [_e_971];
+    assign _e_974 = 3;
+    assign _e_972 = \ui_in_sync [_e_974];
+    assign _e_977 = 4;
+    assign _e_975 = \ui_in_sync [_e_977];
+    assign _e_980 = 5;
+    assign _e_978 = \ui_in_sync [_e_980];
+    assign \ctrl  = {_e_963, _e_966, _e_969, _e_972, _e_975, _e_978};
     (* src = "src/main.spade:66,18" *)
-    \tt07_delay_line_tmng::main::tmng  tmng_0(.clk_i(\clk ), .ctrl_i(\ctrl ), .output__(_e_979));
-    assign \uo_out_mut  = _e_979;
-    assign _e_983 = 0;
-    assign \uio_out_mut  = _e_983;
-    assign _e_985 = 0;
-    assign \uio_oe_mut  = _e_985;
+    \tt07_delay_line_tmng::main::tmng  tmng_0(.clk_i(\clk ), .ctrl_i(\ctrl ), .output__(_e_983));
+    assign \uo_out_mut  = _e_983;
+    assign _e_987 = 0;
+    assign \uio_out_mut  = _e_987;
+    assign _e_989 = 0;
+    assign \uio_oe_mut  = _e_989;
 endmodule
 
-module \std::cdc::unsafe::sync2[460]  (
+module \std::cdc::unsafe::sync2[461]  (
         input clk_i,
         input in_i,
         output output__
@@ -29301,9 +28930,9 @@ module \std::cdc::unsafe::sync2[460]  (
     string __top_module;
     string __vcd_file;
     initial begin
-        if ($value$plusargs("TOP_MODULE=%s", __top_module) && __top_module == "std::cdc::unsafe::sync2[460]" && $value$plusargs("VCD_FILENAME=%s", __vcd_file)) begin
+        if ($value$plusargs("TOP_MODULE=%s", __top_module) && __top_module == "std::cdc::unsafe::sync2[461]" && $value$plusargs("VCD_FILENAME=%s", __vcd_file)) begin
             $dumpfile (__vcd_file);
-            $dumpvars (0, \std::cdc::unsafe::sync2[460] );
+            $dumpvars (0, \std::cdc::unsafe::sync2[461] );
         end
     end
     `endif

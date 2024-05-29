@@ -7,14 +7,18 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
+
 ## How it works
 
-Explain how your project works
+This is a single NAND gate that is fed its inputs from, and writes its results
+to a giant shift register. With this, we can achieve the ultimate time/space
+tradeoff, a single nand gate able to emulate quite complex logic. 
 
 ## How to test
 
-Explain how to use your project
+Undecided, we are working on a yosys backend to generate "programs" for this
+which you can then run by driving the inputs
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+You need an FPGA or similar to drive the inputs at high enough precision to feed "instructions" to the device.

@@ -173,7 +173,7 @@ module \tt07_delay_line_tmng::sreg::dlygate  (
     logic _e_624;
     
     (* src = "src/sreg.spade:9,13" *)
-    sky130_fd_sc_hd__dlygate4sd1_1 sky130_fd_sc_hd__dlygate4sd1_1_0(.A(\A ), .X(\X_mut ));
+    sky130_fd_sc_hd__dlygate4sd3_1 sky130_fd_sc_hd__dlygate4sd3_1_0(.A(\A ), .X(\X_mut ));
     assign _e_624 = \X_mut ;
     assign output__ = _e_624;
 endmodule

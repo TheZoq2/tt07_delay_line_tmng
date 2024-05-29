@@ -424,9 +424,9 @@ module \tt07_delay_line_tmng::sreg::inv_reg  (
         s2_val_n2 <= val_n2;
     end
     (* src = "src/sreg.spade:24,19" *)
-    \tt07_delay_line_tmng::sreg::inverter  inverter_0(.A_i(\val ), .output__(val_n1));
+    \tt07_delay_line_tmng::sreg::dlygate  dlygate_0(.A_i(\val ), .output__(val_n1));
     (* src = "src/sreg.spade:26,19" *)
-    \tt07_delay_line_tmng::sreg::inverter  inverter_1(.A_i(s1_val_n1), .output__(val_n2));
+    \tt07_delay_line_tmng::sreg::dlygate  dlygate_1(.A_i(s1_val_n1), .output__(val_n2));
     assign output__ = s2_val_n2;
 endmodule
 

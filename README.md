@@ -2,6 +2,5 @@
 
 # Tiny Tapeout Delay Line Based Time Multiplexed Nand Gate
 
-This project is written in https://spade-lang.org and the code is in https:
-//gitlab.com/TheZoq2/tt07-delay-line-tmng. This repo committed to by the
+This project is written in https://spade-lang.org and the code is in https://gitlab.com/TheZoq2/tt07-delay-line-tmng. This repo committed to by the
 swim build tool when wanting to run github actions.
